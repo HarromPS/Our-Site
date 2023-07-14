@@ -1,0 +1,13 @@
+extends parent.pug
+
+block head
+    title My website
+    style
+        include ../static/style.css
+
+block next
+    section#main-section
+    | This is a main section
+
+block scripts
+    script(src="../static/script.js")
