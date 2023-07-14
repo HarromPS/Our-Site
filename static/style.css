@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 /* CSS reset */
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color: red;
+
+/* nav bar */
+.navbar {
+    display: flex;
+    height: 23vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-size: 2.4rem;
+    margin: 0px 77px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.nav-ul li {
+    text-decoration: none;
+}
+
+.nav-ul li a {
+    padding: 12px 12px;
+    margin: 1px 12px;
+
 }

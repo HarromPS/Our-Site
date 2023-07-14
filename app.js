@@ -8,6 +8,7 @@ const hostname = "127.0.0.1";   // website url
 
 // Express stuffs
 app.use("/static", express.static("static"));
+app.use(express.urlencoded());
 
 // Pug stuffs
 let path = require("path");
